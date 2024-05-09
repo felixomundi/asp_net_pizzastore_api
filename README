@@ -1,0 +1,13 @@
+## check sdks
+- dotnet --list-sdks
+
+## create new project using cmd
+- dotnet new web -o PizzaStore -f net8.0
+## run app
+- dotnet run
+
+## add swagger
+dotnet add package Swashbuckle.AspNetCore --version 6.5.0
+Use Swagger to ensure that you have a self-documenting API, where the docs change when you change the code.
+## access swagger from browser
+-  http://localhost:{PORT}/swagger
